@@ -13,6 +13,45 @@
     </header>
 
     <main>
+      <section id="account-container">
+        <h3>Account</h3>
+        <p id="session-status" role="status">Checking your session...</p>
+        <form id="login-form">
+          <h4>Log in</h4>
+          <div class="form-group">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" autocomplete="username" required />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" autocomplete="current-password" required />
+          </div>
+          <button type="submit">Log in</button>
+        </form>
+
+        <form id="registration-form">
+          <h4>Create a student account</h4>
+          <div class="form-group">
+            <label for="student-name">Name:</label>
+            <input type="text" id="student-name" autocomplete="name" maxlength="120" required />
+          </div>
+          <div class="form-group">
+            <label for="student-grade">Grade:</label>
+            <input type="text" id="student-grade" maxlength="40" required />
+          </div>
+          <div class="form-group">
+            <label for="registration-email">School email:</label>
+            <input type="email" id="registration-email" autocomplete="username" required />
+          </div>
+          <div class="form-group">
+            <label for="registration-password">Password (at least 12 characters):</label>
+            <input type="password" id="registration-password" autocomplete="new-password" minlength="12" maxlength="128" required />
+          </div>
+          <button type="submit">Create account</button>
+        </form>
+        <button id="logout-button" class="hidden" type="button">Log out</button>
+      </section>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
@@ -21,12 +60,12 @@
         </div>
       </section>
 
-      <section id="signup-container">
+      <section id="signup-container" class="hidden">
         <h3>Sign Up for an Activity</h3>
         <form id="signup-form">
-          <div class="form-group">
+          <div id="target-email-group" class="form-group hidden">
             <label for="email">Student Email:</label>
-            <input type="email" id="email" required placeholder="your-email@mergington.edu" />
+            <input type="email" id="email" placeholder="student@mergington.edu" />
           </div>
           <div class="form-group">
             <label for="activity">Select Activity:</label>
@@ -37,7 +76,7 @@
           </div>
           <button type="submit">Sign Up</button>
         </form>
-        <div id="message" class="hidden"></div>
+        <div id="message" class="message hidden" role="status"></div>
       </section>
     </main>
 
