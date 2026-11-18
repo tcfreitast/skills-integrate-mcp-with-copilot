@@ -1,22 +1,20 @@
-# Integrate MCP with Copilot
+# Parabéns! :tada:
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+<img src="https://octodex.github.com/images/welcometocat.png" align="right" height="250px" />
 
-Olá @tcfreitast!
+Eba **tcfreitast** você terminou o exercício! Ótimo trabalho :tada:
 
-Aqui é a Mona. Terminei de preparar seu exercício. Espero que goste! 💚
+Se você quiser refazer seus passos, pode sempre revisitar o exercício.
 
-Lembre-se, o ritmo é seu, então não hesite em fazer uma pausa! ☕️
+[![](https://img.shields.io/badge/Voltar%20ao%20Exerc%C3%ADcio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/tcfreitast/skills-integrate-mcp-with-copilot/issues/1)
 
-[![](https://img.shields.io/badge/Ir%20para%20o%20Exerc%C3%ADcio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/tcfreitast/skills-integrate-mcp-with-copilot/issues/1)
+> [!TIP]
+> A Mona não vai te avaliar desta vez! 😉
 
----
 
-&copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licença MIT](https://gh.io/mit)
+### Quer mais? :raising_hand:
 
-## Contas e permissões
+Você gostou deste estilo prático de aprendizado? Não há melhor maneira de aprender do que construindo coisas, certo?!
 
-Estudantes podem criar uma conta pela interface com nome, série, e-mail e uma senha de pelo menos 12 caracteres. O cadastro não verifica a titularidade do e-mail; para uso real, conecte um provedor de identidade escolar ou verificação de e-mail antes de confiar no endereço como identidade. As senhas são armazenadas como hashes; os perfis e as sessões ficam no banco SQLite `src/users.sqlite` (ou no caminho definido por `USERS_DB_PATH`).
-
-Para habilitar o acesso administrativo, configure `ADMIN_EMAIL` e `ADMIN_PASSWORD` no ambiente antes de iniciar a aplicação. Defina ambos; a senha também precisa ter pelo menos 12 caracteres. Não existe uma conta administrativa padrão. Estudantes só podem se inscrever ou cancelar a própria inscrição; administradores podem gerenciar inscrições de contas de estudantes. As sessões expiram após oito horas.
+Vamos manter o ritmo! Visite o catálogo do [GitHub Skills](https://skills.github.com) para encontrar outro exercício prático. :rocket:
 
